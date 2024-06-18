@@ -1,0 +1,71 @@
+.circle {
+  background: lightblue;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.circle.raised {
+  transform: scale(1.2);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  margin-bottom: 200px;
+}
+
+.circle.raisedleft {
+  transform: scale(1.2);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  margin-bottom: 120px;
+}
+
+.circle.raisedright {
+  transform: scale(1.2);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  margin-bottom: 120px;
+}
+
+.circle:hover {
+  background-color: #0056b3;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+input {
+  margin-right: 10px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+.scrollbar-container {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  overflow-x: auto;
+  background-color: #f1f1f1;
+  padding: 10px 0;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.scrollbar-content {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.round-button {
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin: 0 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.round-button:hover {
+  background-color: #0056b3;
+}
